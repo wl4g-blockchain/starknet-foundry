@@ -137,6 +137,7 @@ fn fork_aliased_decorator() {
                 tests_filter: TestsFilter::from_flags(
                     None,
                     false,
+                    Vec::new(),
                     false,
                     false,
                     false,
@@ -224,6 +225,7 @@ fn fork_aliased_decorator_overrding() {
                 tests_filter: TestsFilter::from_flags(
                     None,
                     false,
+                    Vec::new(),
                     false,
                     false,
                     false,
